@@ -1,0 +1,54 @@
+        
+
+http://blog.thematicmapping.org/2012/06/creating-color-relief-and-slope-shading.html
+
+http://gis.ess.washington.edu/data/raster/tenmeter/byquad/info.html
+
+The file that you download will be up to 3 megabytes, depending on the complexity of the terrain. The file name will begin with a "q" for decimeter files, or a "f" for files in vertical units of feet. These are .zip files which are combatible with pkunzip and winzip, and can also by unzipped with the public-domain unzip program now available on windows and most unix systems. In zip archive contains one file. For example q1010.zip unzips to q1010.dem. All unzipped files are more than 8 megabytes. They are in the venerable USGS ASCII DEM format, which most commercial and public domain packages can import.
+
+
+Driver: GTiff/GeoTIFF
+Size is 962x1392x3
+Projection is `
+PROJCS["NAD27 / UTM zone 10N",GEOGCS["NAD27",
+                                     DATUM["North_American_Datum_1927",
+                                           SPHEROID["Clarke 1866",6378206.4,294.9786982139006,AUTHORITY["EPSG","7008"]
+                                          ],
+                                          AUTHORITY["EPSG","6267"]
+                                     ],
+       PRIMEM["Greenwich",0],
+       UNIT["degree",0.0174532925199433],
+       AUTHORITY["EPSG","4267"]
+],
+PROJECTION["Transverse_Mercator"],
+PARAMETER["latitude_of_origin",0],
+PARAMETER["central_meridian",-123],
+PARAMETER["scale_factor",0.9996],
+PARAMETER["false_easting",500000],
+PARAMETER["false_northing",0],
+UNIT["metre",1,AUTHORITY["EPSG","9001"]],
+AUTHORITY["EPSG","26710"]]'
+Origin = (490385.000000,5149405.000000)
+Pixel Size = (10.000000,-10.000000)
+
+gdaldem generally assumes that x, y and z units are identical.  If x (east-west)
+  and y (north-south) units are identical, but z (elevation) units are different, the
+  scale (-s) option can be used to set the ratio of vertical units to horizontal.  For 
+  LatLong projections near the equator, where units of latitude and units of 
+  longitude are similar, elevation (z) units can be converted to be compatible
+  by using scale=370400 (if elevation is in feet) or scale=111120 (if elevation is in 
+  meters).  For locations not near the equator, it would be best to reproject your
+  grid using gdalwarp before using gdaldem.
+
+
+gdaldem color-relief input_dem color_text_file output_color_relief_map
+                [-alpha] [-exact_color_entry | -nearest_color_entry]
+                [-b Band (default=1)] [-of format] [-co "NAME=VALUE"]* [-q]
+    where color_text_file contains lines of the format "elevation_value red green blue"
+
+gdaldem color-relief -s 370400 f2116.dem -og jpg f2116.jpg
+gdal/install/bin/gdaldem color-relief -of jpeg -s 370400 f2116.dem color_relief.txt f2116.jpg
+
+color_relief.txt
+0    0 0 0
+2000 255 255 255

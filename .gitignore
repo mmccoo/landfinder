@@ -1,0 +1,4 @@
+*~
+extract_stats/*.o
+extract_stats/*~
+extract_stats/test1
