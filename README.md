@@ -20,3 +20,15 @@ http://www.co.columbia.or.us/departments/assessors-office/assessors-gis-data
 klickitat county has an interactive map here:
 http://imap.klickitatcounty.org/
 it's clickable, so it could be crawled. PErhaps there's a link somewhere to enable direct download.
+
+
+
+cowlitz.pl was an attempt to gather all of the parcels in the county via the street search capability on the website
+
+The website is here:
+http://www.cowlitzinfo.net/applications/cowlitzassessorparcelsearch/(S(vn2an345hyg5wwyt52nrqw55))/searchcp.aspx?Public=Y
+
+Cowlitz/parcels.db is a sqlite3 db that contains a merge of the assessment data and the boundaries in one table.
+
+genparcelpaths.pl generates a kml for google earth based on a simple sqlite select. Parcel number, account number, and coordinages. PN/AN in cowlitz is a unique identified for a piece of property.
+

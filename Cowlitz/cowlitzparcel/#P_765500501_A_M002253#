@@ -1,0 +1,356 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><title>
+	Cowlitz County Parcel Search
+</title><link href="App_Themes/ParcelSearch/ParcelSearch.css" type="text/css" rel="stylesheet" /></head>
+<body >
+    <form name="aspnetForm" method="post" action="ParcelDataCP.aspx?Account=M002253&amp;Public=Y&amp;Parcel=765500501" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2NzczNTAwODQPZBYCZg9kFgICAw9kFgYCBw8PFgIeBFRleHQFHENvd2xpdHogQ291bnR5IFBhcmNlbCBTZWFyY2hkZAIPDw8WAh4LTmF2aWdhdGVVcmwFWGh0dHA6Ly93d3cuY28uY293bGl0ei53YS51cy9jb3dsaXR6YXBwcy9jb3dsaXR6cGVybWl0c2VhcmNoL3NlYXJjaC5hc3B4P1BhcmNlbD03NjU1MDA1MDFkZAIVD2QWAgIBD2QWLGYPZBYCZg9kFgJmDw8WAh4LUG9zdEJhY2tVcmwFGH4vc2VhcmNoY3AuYXNweD9QdWJsaWM9WWRkAgIPZBYCAgEPZBYGZg8PFgQfAAUHTTAwMjI1Mx4HVmlzaWJsZWhkZAIBDw8WBB8ABQdNMDAyMjUzHwEFcmh0dHA6Ly93d3cuY293bGl0emluZm8ubmV0L25ldG1hcHMyNS9pbmRleC5odG1sP0FwcD1QYXJjZWxzJnNlYXJjaD03NjU1MDA1MDEmc2xheWVyPTAmZXhwcm51bT0wJnNob3dkYXRhZ3JpZD1mYWxzZWRkAgMPDxYCHwBlZGQCAw9kFgICAQ9kFgJmDw8WAh8ABQk3NjU1MDA1MDFkZAIED2QWAgIBD2QWAmYPDxYCHwAFDkNPV0xJVFogQ09VTlRZZGQCBQ9kFgICAQ9kFgJmDw8WAh8ABRdORVcgU09ORyBXT1JTSElQIENFTlRFUmRkAgcPZBYCZg9kFgJmDw8WAh8AZWRkAggPZBYCAgEPZBYCZg8PFgIfAAUMMTYxIEFBUk9OIERSZGQCCQ9kFgICAQ9kFgJmDw8WAh8ABRBLRUxTTywgV0EgIDk4NjI2ZGQCCw9kFgICAQ9kFgJmDw8WAh8ABXNTVUI6TUNDT1JLTEUgRExDIFNFQ1QsVFdOLFJORzoxMC04Ti0yVyBERVNDOiBWSU4gMTg3MzE7ICAxOTg2ICAyOC81NyAgREFSVE1BTk9SICAgICAgMTU3IEFBUk9OIERSIFBBUkNFTDogNzY1NTAwNTAxZGQCDQ9kFgICAQ9kFgJmDw8WAh8ABRwxNTcgIEFBUk9OIERSICwgS0VMU08gIDk4NjI2ZGQCDg9kFgICAQ9kFgJmDw8WBB8ABR84MzAgS2Vsc28gKFJ1cmFsL091dGx5aW5nIEFyZWEpHwEFKFN1bW1hcml6ZWRUYXhBdXRob3JpdGllcy5hc3B4P0FyZWFJRD04MzBkZAIRD2QWAgIBD2QWAmYPDxYEHwAFNENsaWNrIDx1PmhlcmU8L3U+IHRvIHZpZXcgaW5kaXZpZHVhbCB0YXggYXV0aG9yaXRpZXMfAQU4SW5kaXZpZHVhbFRheEF1dGhvcml0aWVzLmFzcHg/QXJlYUlEPTgzMCZBY2NvdW50PU0wMDIyNTNkZAITD2QWAgIBD2QWAmYPDxYCHwAFHjIxMyAtIEFSRUEgMSBDT01NIE1JTlVTIE5CSEQgMmRkAhQPZBYCAgEPZBYEAgQPDxYCHwEFcGh0dHA6Ly93d3cuY293bGl0emluZm8ubmV0L25ldG1hcHMyNS9pbmRleC5odG1sP0FwcD1TYWxlcyZzZWFyY2g9NzY1NTAwNTAxJnNsYXllcj0wJmV4cHJudW09MCZzaG93ZGF0YWdyaWQ9ZmFsc2VkZAIGDw8WAh8BBTRodHRwOi8vd3d3LmNvd2xpdHppbmZvLm5ldC9zYWxlc21hcC9oZWxwL3dlbGNvbWUuaHRtZGQCFQ9kFgICAQ9kFgJmDw8WAh8ABXsqIE5vIHNhbGVzIGRhdGEgaXMgYXZhaWxhYmxlIGZvciB0aGlzIHBhcmNlbC4gIFRoaXMgY2FuIG9jY3VyIGlmIHRoZSBwYXJjZWwgaXMgYSBub24tcmVzaWRlbnRpYWwgKGkuZS4gY29tbWVyY2lhbCkgcGFyY2VsLiBkZAIXD2QWAgIBD2QWAmYPDxYCHwAFC1ItNDU4LUxWLSMyZGQCGQ9kFgRmD2QWAmYPDxYCHwAFNEN1cnJlbnQgWWVhciBMZXZ5IFJhdGU8YnI+KDIwMTAgQXNzZXNzIDIwMTEgUGF5YWJsZSlkZAIBD2QWAmYPDxYCHwAFCTEyLjc5OTU4N2RkAisPZBYCAgEPZBYCZg8PFgIfAgUsfi9IaXN0b3JpY2FsQXR0cmlidXRlcy5hc3B4P1BhcmNlbD03NjU1MDA1MDFkZAIsD2QWAgIBD2QWAmYPZBYGZg9kFgQCAQ9kFgJmDw8WAh8ABQROb25lZGQCAg9kFgJmDw8WBh4GVGFyZ2V0BQZfYmxhbmsfAQUvVXBkYXRlVGltYmVyTW9yYXRvcml1bURhdGEuYXNweD9BY2NvdW50PU0wMDIyNTMfA2hkZAIBD2QWAgIBD2QWAmYPDxYCHwAFBE5vbmVkZAICD2QWAgIBD2QWAmYPDxYCHwBlZGQCLg9kFgJmDw8WAh8DaGRkAi8PZBYCAgEPZBYCZg8PFgIfA2hkZAIyD2QWAgIBD2QWAgIBD2QWAmYPZBYCZg9kFgICAQ8PFgIfAQVcaHR0cDovL3d3dy5jb3dsaXR6aW5mby5uZXQvbmV0bWFwczI1L2luZGV4Lmh0bWw/QXBwPUVQSUMmc2VhcmNoPTc2NTUwMDUwMSZzbGF5ZXI9MCZleHBybnVtPTBkZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUkY3RsMDAkY3BoUGFyY2VsU2VhcmNoJGJ0bkRvd25sb2FkUERG6piEwK7TDlqyO7xVuxR4mDvJAqU=" />
+
+<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="xQPFU7JQJQvZ6539ywsapYLcq6kVwy9b6eTHuaFmLEcnD8dhbXv5_-6QR99VPM0r1SsoBdgCC2xymeXWApkRtA2" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWFwKJhPHSBAKgp9zeCQKp7PXECQLj6JTDDwLLh7PmDwKf0ufEAgK9gdSLAgK074/6CwLl5tiXBQLo5tiXBQLksOWYAgLHwrHfBwKfrK+YAQKpta70AwKEhea6BQKojMfsCwLZ06bkBwKh0pfACQK84cXRCQL3t+zGCgKAwfe4BAL5lJnrCAKyjo/gCL7Pu9j6n2YzPdY9XMOZAL50u122" />
+    <div >
+    
+        <table id="ctl00_Table3" align="Center" border="0">
+	<tr id="ctl00_TableRow3" align="center">
+		<td id="ctl00_TableCell7"><img id="ctl00_Image1" src="Images/WebBanners/AssessorParcelSearch_edited-1.bmp" border="0" /></td>
+	</tr>
+</table>
+    </div>
+    
+    <div >
+    
+        <table id="ctl00_Table4" align="Left" border="0">
+	<tr id="ctl00_TableRow4" align="left">
+		<td id="ctl00_TableCell2"><a id="ctl00_hlinkHomePage" href="http://www.co.cowlitz.wa.us/assessor" target="_blank">Cowlitz County Assessor Home Page</a></td>
+	</tr>
+</table>
+        <br />
+    </div>    
+    <div>           
+     <!--
+        <img id="ctl00_imgCountyLogo" src="Images/COWLITZLogoColorSmall.jpg" align="left" border="1" />
+        
+        <input name="ctl00$txtAppName" type="text" value="Cowlitz County Parcel Search" readonly="readonly" id="ctl00_txtAppName" border="3" />&nbsp;<br />
+        &nbsp &nbsp
+        <a id="ctl00_HyperLink1" href="Default.aspx"><font face="verdana" color="#1C5E55" size="3">Home</font></a>
+        &nbsp &nbsp
+
+         
+         
+        
+       <a id="ctl00_HyperLink3" href="http://www.co.cowlitz.wa.us/assessor/"><font face="verdana" color="#1C5E55" size="3">Assessor</font></a>
+        &nbsp &nbsp
+        <a id="ctl00_HyperLink4" href="http://www.co.cowlitz.wa.us/treasurer/"><font face="verdana" color="#1C5E55" size="3">Treasurer</font></a>
+        &nbsp &nbsp
+        <a id="ctl00_HyperLink6" href="http://www.co.cowlitz.wa.us/cowlitzapps/cowlitzpermitsearch/search.aspx?Parcel=765500501"><font face="verdana" color="#1C5E55" size="3">County Permit Search</font></a>
+        &nbsp &nbsp
+        <a id="ctl00_HyperLink7" href="https://egov.mylongview.com/default.asp?Build=PM.pmPermit.SearchForm&amp;utask=normalview"><font face="verdana" color="#1C5E55" size="3">City Of Longview Permit Search</font></a>
+        &nbsp &nbsp
+ -->
+         
+        <span id="ctl00_outError" style="display:inline-block;"><b><font color="#C00000" size="5"></font></b></span>
+        <br />
+
+        
+    <div>
+         
+        
+        <table id="ctl00_cphParcelSearch_Table1" align="Center" border="0">
+	<tr id="ctl00_cphParcelSearch_TableRow13">
+		<td id="ctl00_cphParcelSearch_TableCell106" valign="middle"><a id="ctl00_cphParcelSearch_lnkbtnAccept" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$cphParcelSearch$lnkbtnAccept&quot;, &quot;&quot;, false, &quot;&quot;, &quot;searchcp.aspx?Public=Y&quot;, false, true))"><font face="verdana" color="#1C5E55">Click Here for New Search</font></a></td>
+	</tr><tr id="ctl00_cphParcelSearch_TableRow1">
+		<td id="ctl00_cphParcelSearch_TableCell1" bgcolor="#E3EAEB"><font color="#1C5E55"><i><b>
+                    Account Information
+                </b></i></font></td><td id="ctl00_cphParcelSearch_TableCell98" valign="middle"><input type="image" name="ctl00$cphParcelSearch$btnDownloadPDF" id="ctl00_cphParcelSearch_btnDownloadPDF" src="Images/DownloadPDFa.jpg" align="middle" border="0" />   Create Printable PDF                 
+                 
+                </td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell2"><span id="ctl00_cphParcelSearch_Label1">Account</span></td><td id="ctl00_cphParcelSearch_TableCell20"><a id="ctl00_cphParcelSearch_lnkAccount" href="http://www.cowlitzinfo.net/netmaps25/index.html?App=Parcels&amp;search=765500501&amp;slayer=0&amp;exprnum=0&amp;showdatagrid=false" target="_blank">M002253</a>                 
+                    &nbsp &nbsp &nbsp &nbsp <b>Click account to view parcel map.</b> (Flash Player 11.1.0 or greater required)
+                    <span id="ctl00_cphParcelSearch_lblCancelled"><b><font color="Crimson" size="4"></font></b></span></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell3"><span id="ctl00_cphParcelSearch_Label2">Parcel</span></td><td id="ctl00_cphParcelSearch_TableCell4"><input name="ctl00$cphParcelSearch$txtParcel" type="text" value="765500501" readonly="readonly" id="ctl00_cphParcelSearch_txtParcel" border="0" /></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell83"><span id="ctl00_cphParcelSearch_Label39">Jurisdiction</span></td><td id="ctl00_cphParcelSearch_TableCell85"><input name="ctl00$cphParcelSearch$txtJurisdiction" type="text" value="COWLITZ COUNTY" readonly="readonly" id="ctl00_cphParcelSearch_txtJurisdiction" border="0" /></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell5"><span id="ctl00_cphParcelSearch_Label3">Owner</span></td><td id="ctl00_cphParcelSearch_TableCell6"><input name="ctl00$cphParcelSearch$txtOwner" type="text" value="NEW SONG WORSHIP CENTER" readonly="readonly" id="ctl00_cphParcelSearch_txtOwner" border="0" /></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell13">
+                    <br />
+                </td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell7"><span id="ctl00_cphParcelSearch_lblAddressType"></span></td><td id="ctl00_cphParcelSearch_TableCell8"><input name="ctl00$cphParcelSearch$txtContractOwner" type="text" readonly="readonly" id="ctl00_cphParcelSearch_txtContractOwner" border="0" /></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell9"><span id="ctl00_cphParcelSearch_Label4">Mailing Address</span></td><td id="ctl00_cphParcelSearch_TableCell10"><input name="ctl00$cphParcelSearch$txtAddress1" type="text" value="161 AARON DR" readonly="readonly" id="ctl00_cphParcelSearch_txtAddress1" border="0" /></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell11"></td><td id="ctl00_cphParcelSearch_TableCell12"><input name="ctl00$cphParcelSearch$txtAddress2" type="text" value="KELSO, WA  98626" readonly="readonly" id="ctl00_cphParcelSearch_txtAddress2" border="0" /></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell14">
+                    <br />
+                </td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell15" valign="top">
+                    Abbreviated<br />
+                    Property<br />
+                    Reference             
+                </td><td id="ctl00_cphParcelSearch_TableCell16"><textarea name="ctl00$cphParcelSearch$txtLegalDescr" rows="2" cols="20" readonly="readonly" id="ctl00_cphParcelSearch_txtLegalDescr">SUB:MCCORKLE DLC SECT,TWN,RNG:10-8N-2W DESC: VIN 18731;  1986  28/57  DARTMANOR      157 AARON DR PARCEL: 765500501</textarea></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell19">
+                    <br />
+                </td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell17"><span id="ctl00_cphParcelSearch_Label5">Situs</span></td><td id="ctl00_cphParcelSearch_TableCell18"><input name="ctl00$cphParcelSearch$txtSitus" type="text" value="157  AARON DR , KELSO  98626" readonly="readonly" id="ctl00_cphParcelSearch_txtSitus" border="0" /></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell21"><span id="ctl00_cphParcelSearch_Label6">Tax District</span></td><td id="ctl00_cphParcelSearch_TableCell22"><a id="ctl00_cphParcelSearch_lnkTaxDistrict" href="SummarizedTaxAuthorities.aspx?AreaID=830" target="_blank">830 Kelso (Rural/Outlying Area)</a></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell27">
+                    <br />
+                </td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell23"></td><td id="ctl00_cphParcelSearch_TableCell24"><span id="ctl00_cphParcelSearch_Label8"><i>Click the underlined tax district to view summarized tax authorities</i></span></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell25"></td><td id="ctl00_cphParcelSearch_TableCell26"><a id="ctl00_cphParcelSearch_lnkIndividualTaxAuthorities" href="IndividualTaxAuthorities.aspx?AreaID=830&amp;Account=M002253" target="_blank"><i><font color="#1C5E55">Click <u>here</u> to view individual tax authorities</font></i></a></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell29">
+                    <br />
+                </td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell28"><span id="ctl00_cphParcelSearch_Label7">Neighborhood</span></td><td id="ctl00_cphParcelSearch_TableCell30"><input name="ctl00$cphParcelSearch$txtNeighborhood" type="text" value="213 - AREA 1 COMM MINUS NBHD 2" readonly="readonly" id="ctl00_cphParcelSearch_txtNeighborhood" border="0" /></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell31"><span id="ctl00_cphParcelSearch_Label9"></span></td><td id="ctl00_cphParcelSearch_TableCell33"><a id="ctl00_cphParcelSearch_lnkSalesData" target="_blank">Sales Data</a>                 
+                    &nbsp &nbsp
+
+                    <a id="ctl00_cphParcelSearch_lnkSalesDataCondensed" target="_blank"></a>                 
+                    &nbsp &nbsp
+
+
+                    <a id="ctl00_cphParcelSearch_lnkMapData" href="http://www.cowlitzinfo.net/netmaps25/index.html?App=Sales&amp;search=765500501&amp;slayer=0&amp;exprnum=0&amp;showdatagrid=false" target="_blank">Map Data</a>   
+                    &nbsp &nbsp                   
+			        <a id="ctl00_cphParcelSearch_lnkMapInstructions" href="http://www.cowlitzinfo.net/salesmap/help/welcome.htm" target="_blank">Click Here For Interactive Map Instructions</a></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell96"></td><td id="ctl00_cphParcelSearch_TableCell97" colspan="10"><span id="ctl00_cphParcelSearch_lblSalesMessage" style="display:inline-block;">* No sales data is available for this parcel.  This can occur if the parcel is a non-residential (i.e. commercial) parcel. </span></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell35">
+                    <br />
+                </td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell32"><span id="ctl00_cphParcelSearch_Label10">Levy</span></td><td id="ctl00_cphParcelSearch_TableCell34"><a id="ctl00_cphParcelSearch_lnkLevy" href="http://www.co.cowlitz.wa.us/assessor/LEVY%20INFORMATION/understanding%20the%20levy%20sheet.html" target="_blank">R-458-LV-#2</a></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell81">
+                   <br />
+                </td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell36"><span id="ctl00_cphParcelSearch_Label11">Current Year Levy Rate<br>(2010 Assess 2011 Payable)</span></td><td id="ctl00_cphParcelSearch_TableCell37"><input name="ctl00$cphParcelSearch$txtLevyRate" type="text" value="12.799587" readonly="readonly" id="ctl00_cphParcelSearch_txtLevyRate" border="0" /></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell45">
+                    <br />
+                </td>
+	</tr><tr id="ctl00_cphParcelSearch_TableRow2">
+		<td id="ctl00_cphParcelSearch_TableCell38" valign="bottom" bgcolor="#E3EAEB"><font color="#1C5E55"><i><b>
+                    Current Assessment Information 
+                </b></i></font></td><td><a id="ctl00_cphParcelSearch_lnkbtnAssessmentHistoricalValues" href="javascript:__doPostBack('ctl00$cphParcelSearch$lnkbtnAssessmentHistoricalValues','')">Click Here to View Historical Values</a></td>
+	</tr><tr>
+		<td></td><td id="ctl00_cphParcelSearch_tablecell99" align="left"><table id="ctl00_cphParcelSearch_tblAssessmentInformation" border="0">
+			<tr id="ctl00_cphParcelSearch_tableRow99">
+				<td id="ctl00_cphParcelSearch_TableCell39" valign="bottom"><span id="ctl00_cphParcelSearch_Label12"><b>Assessment<br>Year</b></span></td><td id="ctl00_cphParcelSearch_TableCell40" valign="bottom"><span id="ctl00_cphParcelSearch_Label13"><b>Taxes<br>Payable<br>Year</b></span></td><td id="ctl00_cphParcelSearch_TableCell41" valign="bottom"><span id="ctl00_cphParcelSearch_Label14"><b>Type</b></span></td><td id="ctl00_cphParcelSearch_TableCell42" align="right" valign="bottom"><span id="ctl00_cphParcelSearch_Label15"><b>Actual<br>Value</b></span></td><td id="ctl00_cphParcelSearch_TableCell43" align="right" valign="bottom"><span id="ctl00_cphParcelSearch_Label16"><b>Assessed<br>Value</b></span></td><td id="ctl00_cphParcelSearch_TableCell44" align="right" valign="bottom"><span id="ctl00_cphParcelSearch_Label17"><b>Acres</b></span></td><td id="ctl00_cphParcelSearch_TableCell95" align="right" valign="bottom" width="125"><span id="ctl00_cphParcelSearch_Label45"><b>Notice of<br>Valuation**<br></b></span></td>
+			</tr>
+<tr>
+				<td>2013</td><td>2014</td><td>PRIVATE EX IMPR</td><td align="right">33130</td><td align="right">33130</td><td align="right">0</td><td align="right" width="125"><a href="http://apps.co.cowlitz.wa.us/WebLinkAssessorNOV/search.aspx?dbid=0&amp;searchcommand={[ASR Notice of Valuation]:[Assessment Year]=%222013%22, [Parcel Number Multi]=%22765500501%22}" target="_blank">NOV for 765500501</a></td>
+			</tr>
+		</table></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell93"></td><td id="ctl00_cphParcelSearch_TableCell94"><span id="ctl00_cphParcelSearch_Label44"><i>** This is the Notice of Valuation as it was originally mailed out.  Any subsequent changes to values after the initial notice was produced are not reflected in this PDF.</i></span></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell55">
+                    <br />
+                </td>
+	</tr><tr id="ctl00_cphParcelSearch_TableRow3">
+		<td id="ctl00_cphParcelSearch_TableCell46" valign="bottom" bgcolor="#E3EAEB"><font color="#1C5E55"><i><b>
+                    Current Transaction Information
+                </b></i></font></td><td><a id="ctl00_cphParcelSearch_lnkbtnTransactionHistoricalValues" href="javascript:__doPostBack('ctl00$cphParcelSearch$lnkbtnTransactionHistoricalValues','')">Click Here to View Historical Taxes</a></td>
+	</tr><tr id="ctl00_cphParcelSearch_TableRow11">
+		<td id="ctl00_cphParcelSearch_TableCell80" valign="bottom" bgcolor="#E3EAEB"><font color="#1C5E55"><i>
+                    <i>Click on Tax Year to view detail</i>
+                </i></font></td>
+	</tr><tr>
+		<td></td><td id="ctl00_cphParcelSearch_tablecell47" align="left"><table id="ctl00_cphParcelSearch_tblTransactionValues" border="0">
+			<tr id="ctl00_cphParcelSearch_TableRow12">
+				<td id="ctl00_cphParcelSearch_TableCell86" valign="bottom" colspan="9"><span id="ctl00_cphParcelSearch_Label40"><b><font color="DarkRed">Payment Processing:  Until your payment is posted, the website will continue to automatically update your account with accruing<br> interest and penalty charges.  Longer processing times can be expected during the months of April/May and October/November.<br>Please be advised it may take up to two weeks before all property tax payments are posted.</font></b></span></td>
+			</tr><tr id="ctl00_cphParcelSearch_TableRow48">
+				<td id="ctl00_cphParcelSearch_TableCell48" valign="bottom" width="100"><span id="ctl00_cphParcelSearch_Label18"><b>Assessment<br>Year</b></span></td><td id="ctl00_cphParcelSearch_TableCell49" valign="bottom" width="40"><span id="ctl00_cphParcelSearch_Label19"><b>Tax<br>Year</b></span></td><td id="ctl00_cphParcelSearch_TableCell51" align="right" valign="bottom" width="75"><span id="ctl00_cphParcelSearch_Label21"><b>Total<br>Charges</b></span></td><td id="ctl00_cphParcelSearch_TableCell52" align="right" valign="bottom" width="75"><span id="ctl00_cphParcelSearch_Label22"><b>Paid<br>1st Half</b></span></td><td id="ctl00_cphParcelSearch_TableCell50" align="right" valign="bottom" width="75"><span id="ctl00_cphParcelSearch_Label20"><b>Paid<br>2nd Half</b></span></td><td id="ctl00_cphParcelSearch_TableCell54" align="right" valign="bottom" width="75"><span id="ctl00_cphParcelSearch_Label24"><b>Paid<br>Whole Year</b></span></td><td id="ctl00_cphParcelSearch_TableCell53" align="right" valign="bottom" width="75"><span id="ctl00_cphParcelSearch_Label23"><b>Unpaid<br>Amount</b></span></td><td id="ctl00_cphParcelSearch_TableCell82" align="right" valign="bottom" width="85"><span id="ctl00_cphParcelSearch_Label37"><b>Tax Bill**<br>(pdf)<br></b></span></td><td id="ctl00_cphParcelSearch_TableCell87" align="center" valign="bottom" nowrap="nowrap"><span id="ctl00_cphParcelSearch_Label38"><b>Credit Card Payment Link</b></span>               
+                                <br /> &nbsp &nbsp 
+                                <a id="ctl00_cphParcelSearch_LinkButton21" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$cphParcelSearch$LinkButton21&quot;, &quot;&quot;, false, &quot;&quot;, &quot;http://www.officialpayments.com&quot;, false, true))"><font color="#1C5E55" size="3">www.officialpayments.com</font></a></td>
+			</tr><tr>
+				<td>2013</td><td><a href="TransactionDetail.aspx?Account=M002253&amp;Year=2013" target="_blank">2014</a></td><td align="right">$109.84</td><td align="right">$54.92</td><td align="right"></td><td align="right"></td><td align="right">$54.92</td><td align="right"><a href="http://apps.co.cowlitz.wa.us/WebLinkTreasurerTaxBills/search.aspx?dbid=0&amp;searchcommand={LF:Name=%22M002253%22, Type=%22DB%22} &amp; {LF:LOOKIN=%22CCIMAGES\Treasurer\Tax Bills Web\2014 Payable%22}" target="_blank">M002253</a></td>
+			</tr>
+		</table></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCel1l23"></td><td id="ctl00_cphParcelSearch_TableCel1l24"><span id="ctl00_cphParcelSearch_Label118"><i>** This is the tax bill as it was mailed out in February.  Subsequent changes to the tax bill are not reflected in this PDF.</i></span></td>
+	</tr><tr id="ctl00_cphParcelSearch_TableRow333">
+		<td id="ctl00_cphParcelSearch_TableCell446"></td><td>
+			Make Checks Payable to:
+                </td>
+	</tr><tr id="ctl00_cphParcelSearch_TableRow334">
+		<td id="ctl00_cphParcelSearch_TableCell447"></td><td>
+			Cowlitz County Treasurer
+                </td>
+	</tr><tr id="ctl00_cphParcelSearch_TableRow335">
+		<td id="ctl00_cphParcelSearch_TableCell448"></td><td>
+			207 4th Ave. N.
+                </td>
+	</tr><tr id="ctl00_cphParcelSearch_TableRow337">
+		<td id="ctl00_cphParcelSearch_TableCell449"></td><td>
+			Kelso, WA  98626
+                </td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell64">
+                    <br />
+                </td>
+	</tr><tr id="ctl00_cphParcelSearch_TableRow5">
+		<td id="ctl00_cphParcelSearch_TableCell65" valign="bottom" bgcolor="#E3EAEB"><font color="#1C5E55"><i><b>
+                    Conveyance History
+                </b></i></font></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell90" valign="bottom" bgcolor="#E3EAEB"><font color="#1C5E55"><i>
+                    <i>Click on the links to view conveyance documents<br /><br />While we make every attempt to make<br />documents available online, there may<br />be some cases where documents<br />are only available in the Auditor's Office.</i>
+                </i></font></td><td id="ctl00_cphParcelSearch_tablecell56" align="left"><table id="ctl00_cphParcelSearch_tblConveyanceHistory" border="0">
+			<tr id="ctl00_cphParcelSearch_TableRow4">
+				<td id="ctl00_cphParcelSearch_TableCell57" valign="bottom" width="100"><span id="ctl00_cphParcelSearch_Label25"><b>Reception</b></span></td><td id="ctl00_cphParcelSearch_TableCell58" valign="bottom" width="40"><span id="ctl00_cphParcelSearch_Label26"><b>Book</b></span></td><td id="ctl00_cphParcelSearch_TableCell66" valign="bottom" width="40"><span id="ctl00_cphParcelSearch_Label32"><b>Page</b></span></td><td id="ctl00_cphParcelSearch_TableCell67" valign="bottom" width="40"><span id="ctl00_cphParcelSearch_Label33"><b>Grantor</b></span></td>
+			</tr><tr>
+				<td>963933</td><td></td><td>0</td><td>LEXINGTON CHRISTIAN FELLOWSHIP</td>
+			</tr><tr>
+				<td>963933</td><td></td><td>0</td><td></td>
+			</tr><tr>
+				<td>0</td><td></td><td>0</td><td>KASEMEIER MARVIN JR</td>
+			</tr>
+		</table></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell70">
+                    <br />
+                </td>
+	</tr><tr id="ctl00_cphParcelSearch_TableRow6">
+		<td id="ctl00_cphParcelSearch_TableCell59" bgcolor="#E3EAEB"><font color="#1C5E55"><i><b>
+                    Property Details
+                </b></i></font></td><td><a id="ctl00_cphParcelSearch_lnkbtnHistoricalAttributes" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$cphParcelSearch$lnkbtnHistoricalAttributes&quot;, &quot;&quot;, false, &quot;&quot;, &quot;HistoricalAttributes.aspx?Parcel=765500501&quot;, false, true))">Click here to view historical property details.</a></td>
+	</tr><tr>
+		<td></td><td><table id="ctl00_cphParcelSearch_tblPropertyDetails" border="0">
+			<tr id="ctl00_cphParcelSearch_TableRow94">
+				<td id="ctl00_cphParcelSearch_TableCell60"><span id="ctl00_cphParcelSearch_Label27"><b>Timber Moratorium ExpirationDate</b></span></td><td id="ctl00_cphParcelSearch_TableCell61"><input name="ctl00$cphParcelSearch$txtTimberMoratoriumExpirationDate" type="text" value="None" readonly="readonly" id="ctl00_cphParcelSearch_txtTimberMoratoriumExpirationDate" border="0" /></td><td id="ctl00_cphParcelSearch_TableCell72"></td>
+			</tr><tr>
+				<td id="ctl00_cphParcelSearch_TableCell62"><span id="ctl00_cphParcelSearch_Label28"><b>Timber Moratorium Fee Number</b></span></td><td id="ctl00_cphParcelSearch_TableCell63"><input name="ctl00$cphParcelSearch$txtTimberMoratoriumFeeNumber" type="text" value="None" readonly="readonly" id="ctl00_cphParcelSearch_txtTimberMoratoriumFeeNumber" border="0" /></td>
+			</tr><tr>
+				<td id="ctl00_cphParcelSearch_TableCell68"><span id="ctl00_cphParcelSearch_Label29"><b>Short Plat/Large Lot #</b></span></td><td id="ctl00_cphParcelSearch_TableCell69"><input name="ctl00$cphParcelSearch$txtShortPlatNumber" type="text" readonly="readonly" id="ctl00_cphParcelSearch_txtShortPlatNumber" border="0" /></td>
+			</tr><tr>
+				<td><b>Model: BUS_MASTER </b></td>
+			</tr><tr>
+				<td></td><td></td><td></td>
+			</tr><tr>
+				<td></td><td></td><td></td>
+			</tr><tr>
+				<td><b>Model: MH_LAND_PKG </b></td>
+			</tr><tr>
+				<td></td><td></td><td></td>
+			</tr><tr>
+				<td>FIRST</td><td>1539</td><td></td>
+			</tr>
+		</table></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell105">
+                    <br />
+                </td>
+	</tr><tr id="ctl00_cphParcelSearch_TableRow96">
+
+	</tr><tr>
+		<td></td><td></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell71">
+                    <br />
+                </td>
+	</tr><tr id="ctl00_cphParcelSearch_TableRow7">
+		<td id="ctl00_cphParcelSearch_tblcellPermits" bgcolor="#E3EAEB"><font color="#1C5E55"><i><b>
+                    Cowlitz County Permits
+                </b></i></font></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell91" valign="bottom" bgcolor="#E3EAEB"><font color="#1C5E55"><i>
+                    <i>Click on the links to view permit documents<br /><br />While we make every attempt to make<br />documents available online, there may<br />be some cases where documents<br />are unavailable in an electronic format.</i>
+                </i></font></td><td valign="top"><table id="ctl00_cphParcelSearch_tblPermits" border="0">
+			<tr id="ctl00_cphParcelSearch_TableRow8">
+				<td id="ctl00_cphParcelSearch_TableCell73"><span id="ctl00_cphParcelSearch_Label30"><b>Permit#</b></span></td><td id="ctl00_cphParcelSearch_TableCell89"><span id="ctl00_cphParcelSearch_Label43"><b>Project Name</b></span></td><td id="ctl00_cphParcelSearch_TableCell74"><span id="ctl00_cphParcelSearch_Label31"><b>Type</b></span></td><td id="ctl00_cphParcelSearch_TableCell77"><span id="ctl00_cphParcelSearch_Label36"><b>Remark</b></span></td><td id="ctl00_cphParcelSearch_TableCell75"><span id="ctl00_cphParcelSearch_Label34"><b>Filing Date</b></span></td><td id="ctl00_cphParcelSearch_TableCell76"><span id="ctl00_cphParcelSearch_Label35"><b>Status</b></span></td>
+			</tr>
+		</table><table id="ctl00_cphParcelSearch_Table2" border="0">
+			<tr id="ctl00_cphParcelSearch_TableRow14">
+				<td id="ctl00_cphParcelSearch_TableCell92">
+                                <br />
+                                <a id="ctl00_cphParcelSearch_hlEPICButton" href="http://www.cowlitzinfo.net/netmaps25/index.html?App=EPIC&amp;search=765500501&amp;slayer=0&amp;exprnum=0" target="_blank"><img src="Images/EPIC_button.png" border="0" /></a></td>
+			</tr>
+		</table></td>
+	</tr><tr>
+		<td id="ctl00_cphParcelSearch_TableCell84">
+                    <br />
+                </td>
+	</tr><tr id="ctl00_cphParcelSearch_TableRow9">
+		<td id="ctl00_cphParcelSearch_TableCell78" bgcolor="#E3EAEB"><font color="#1C5E55"><i><b>
+                    Photographs
+                </b></i></font></td>
+	</tr><tr>
+		<td></td><td><table id="ctl00_cphParcelSearch_tblPhotographs" border="0">
+			<tr id="ctl00_cphParcelSearch_TableRow10">
+				<td id="ctl00_cphParcelSearch_TableCell79"></td>
+			</tr><tr>
+				<td height="200" width="300"><img src="http://www.cowlitzinfo.net/applications/cowlitzassessorparcelsearch/DisplayPhoto.aspx?ACCOUNT=M002253&amp;SEQUENCE=1" height="200" width="300" border="0" /></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>  
+    
+    
+        <input type="hidden" name="ctl00$cphParcelSearch$hdnAssessmentPeriod" id="ctl00_cphParcelSearch_hdnAssessmentPeriod" value="Current" />      
+        <input type="hidden" name="ctl00$cphParcelSearch$hdnTransactionPeriod" id="ctl00_cphParcelSearch_hdnTransactionPeriod" value="Current" />      
+    
+        <br />
+        <br />
+        <br />
+        <br />
+       
+        
+        <span id="ctl00_cphParcelSearch_outError" style="display:inline-block;"><b><font color="#C00000" size="5"></font></b></span>
+
+
+    </div>
+
+
+        <table id="ctl00_Table2" align="Center" border="0">
+	<tr id="ctl00_TableRow2" align="center">
+		<td id="ctl00_TableCell5" align="center"><font color="#1C5E55"><b><a id="ctl00_HyperLink16" href="http://apps.co.cowlitz.wa.us/cowlitzapps/cowlitzpermitsearch/search.aspx"><font face="verdana" color="#1C5E55" size="2">County Permit Search</font></a></b></font></td><td id="ctl00_TableCell6" align="center"><font color="#1C5E55"><b><a id="ctl00_HyperLink17" href="https://egov.mylongview.com/default.asp?Build=PM.pmPermit.SearchForm&amp;utask=normalview"><font face="verdana" color="#1C5E55" size="2">City Of Longview Permit Search</font></a></b></font></td>
+	</tr>
+</table>            
+
+        
+        <table id="ctl00_Table1" align="Center" border="0">
+	<tr id="ctl00_TableRow1" align="center">
+		<td id="ctl00_TableCell1" align="center"><font face="verdana" color="#1C5E55" size="2"><b>
+             <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />        
+                    Copyright &copy 2013 Cowlitz County.  All Rights Reserved.
+                </b></font></td>
+	</tr>
+</table>            
+
+
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+    </form>
+</body>
+</html>
