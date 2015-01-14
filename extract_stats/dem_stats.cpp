@@ -1,6 +1,6 @@
 #include "gdal/gdal_priv.h"
 #include "gdal/cpl_conv.h" // for CPLMalloc()
-
+#include <gdal/ogr_spatialref.h>
 
 #include <iostream>
 #include <limits>
@@ -49,6 +49,9 @@ int main()
     printf( "Pixel Size = (%.6f,%.6f)\n",
             adfGeoTransform[1], adfGeoTransform[5] );
   }
+
+  double origX = adfGeoTransform[0];
+  double origY = adfGeoTransform[3];
 
 
   GDALRasterBand  *poBand;
@@ -106,4 +109,38 @@ int main()
     }
   } /* end of for(int i=0; i<nXSize;i++) */
   
+  // Google Earth uses Simple Cylindrical projection with a WGS84 datum for its imagery base.
+  // Lat Long
+  OGRSpatialReference oTargetSRS;
+  oTargetSRS.SetWellKnownGeogCS( "WGS84" );
+
+  // UTM
+  OGRSpatialReference oSourceSRS;
+  oSourceSRS.SetWellKnownGeogCS("NAD27");
+  oSourceSRS.SetUTM( 10, TRUE );
+
+  OGRCoordinateTransformation *poCT;
+  poCT = OGRCreateCoordinateTransformation( &oSourceSRS,
+					    &oTargetSRS );
+
+  double coordsX[4];
+  double coordsY[4];
+  coordsX[0] = origX;
+  coordsY[0] = origY;
+
+  coordsX[1] = origX + adfGeoTransform[1]*nBlockXSize ;
+  coordsY[1] = origY;
+
+  coordsX[2] = origX + adfGeoTransform[1]*nBlockXSize;
+  coordsY[2] = origY + adfGeoTransform[5]*nBlockYSize;
+
+  coordsX[3] = origX;
+  coordsY[3] = origY + adfGeoTransform[5]*nBlockYSize;
+  
+  poCT->Transform( 4, coordsX, coordsY );
+  printf("\n");
+  for(int i=0; i<4; i++) {
+    printf("%f,%f,0 ", coordsX[i], coordsY[i]);
+  }
+  printf("%f,%f,0 ", coordsX[0], coordsY[0]);
 }

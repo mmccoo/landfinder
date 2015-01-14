@@ -2,3 +2,12 @@
 extract_stats/*.o
 extract_stats/*~
 extract_stats/test1
+extract_stats/convert
+extract_stats/#*#
+extract_stats/dem_stats
+extract_stats/joinset
+extract_stats/polygontest
+extract_stats/polygontest1
+extract_stats/sqlitetest
+SRombauts-SQLiteCpp-91a98f8
+Cowlitz/parcels.db
