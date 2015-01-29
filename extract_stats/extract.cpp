@@ -14,6 +14,11 @@
 #include <boost/range/adaptor/transformed.hpp>
 #include <boost/regex.hpp>
 
+#include "gdal/gdal_priv.h"
+#include "gdal/cpl_conv.h" // for CPLMalloc()
+#include <gdal/ogr_spatialref.h>
+
+
 namespace gtl = boost::polygon;
 using namespace boost::polygon::operators;
 
@@ -79,6 +84,8 @@ void bound_to_poly(std::string &bound, polygon_type &poly)
 
 int main(int argc, char* argv[])
 {
+
+#if 0
   const char* dbfile = "../Cowlitz/parcels.db";
 
   // Open a database file in readonly mode
@@ -110,6 +117,74 @@ int main(int argc, char* argv[])
     std::cout << "poly " << poly << std::endl;
 
   }
+#endif
+  GDALAllRegister();
+
+  char pszFilename[] = "f2116.dem";
+  
+  GDALDataset  *poDataset = (GDALDataset *) GDALOpen( pszFilename, GA_ReadOnly );
+  if( poDataset == NULL ) {
+    std::cerr << "got an errorreading dataset " << pszFilename << "\n";
+    exit(-1);
+  } 
+
+  // USGSDEM/USGS Optional ASCII DEM (and CDED)
+  printf( "Driver: %s/%s\n",
+          poDataset->GetDriver()->GetDescription(), 
+          poDataset->GetDriver()->GetMetadataItem( GDAL_DMD_LONGNAME ) );
+
+  printf( "Size is %dx%dx%d\n", 
+          poDataset->GetRasterXSize(), poDataset->GetRasterYSize(),
+          poDataset->GetRasterCount() );
+
+  // PROJCS["UTM Zone 10, Northern Hemisphere",
+  //        GEOGCS["NAD27",DATUM["North_American_Datum_1927"
+  if( poDataset->GetProjectionRef()  != NULL ) {
+    printf( "Projection is `%s'\n", poDataset->GetProjectionRef() );
+  }
+
+  OGRSpatialReference sref(poDataset->GetProjectionRef());
+  int north;
+  int zone = sref.GetUTMZone(&north);
+  printf("zone %d\n", zone);
+
+  double        adfGeoTransform[6];
+  if( poDataset->GetGeoTransform( adfGeoTransform ) == CE_None ) {
+    printf( "Origin = (%.6f,%.6f)\n",
+            adfGeoTransform[0], adfGeoTransform[3] );
+
+    // given UTM, the pixel size is in meters.
+    // y is negative because we're going north to south
+    printf( "Pixel Size = (%.6f,%.6f)\n", adfGeoTransform[1], adfGeoTransform[5] );
+  }
+
+  int nBlockXSize, nBlockYSize;  
+  // rastercount may be > 1 if you have R, G, and B components or 
+  // somesort of multilayer thing      
+  GDALRasterBand  *poBand = poDataset->GetRasterBand(1);
+  poBand->GetBlockSize( &nBlockXSize, &nBlockYSize );
+  printf("Block=%dx%d Type=%s, ColorInterp=%s\n",
+         nBlockXSize, nBlockYSize,
+         GDALGetDataTypeName(poBand->GetRasterDataType()),
+         GDALGetColorInterpretationName(poBand->GetColorInterpretation())
+         );
+
+  int   nXSize = poBand->GetXSize();
+  float *pafScanline = (float *) CPLMalloc(sizeof(float)*nXSize);
+  const double nodata = poBand->GetNoDataValue();
+
+  poBand->RasterIO( GF_Read, 0, 1, nXSize, 1, 
+                    pafScanline, nXSize, 1, GDT_Float32, 
+                    0, 0 );
+
+  for(int i=0; i<nXSize;i++) {
+    if (nodata == pafScanline[i]) {
+      printf(".");
+    } else {
+      printf("%f ", pafScanline[i]);
+    }
+  } /* end of for(int i=0; i<nXSize;i++) */
+  
 
   exit(0);
   std::vector<gtl::rectangle_data<int> > test_data;

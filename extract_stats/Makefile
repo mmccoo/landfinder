@@ -2,7 +2,7 @@ CXXFLAGS=-g  -I../SRombauts-SQLiteCpp-91a98f8/include/
 
 extract: extract.cpp
 	g++ $(CXXFLAGS) -c extract.cpp
-	g++ -o extract extract.o -L../SRombauts-SQLiteCpp-91a98f8/build -l SQLiteCpp -l sqlite3 -lboost_regex
+	g++ -o extract extract.o -L../SRombauts-SQLiteCpp-91a98f8/build -l SQLiteCpp -l sqlite3 -lboost_regex -lgdal
 
 
 all:
