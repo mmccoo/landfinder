@@ -1,4 +1,4 @@
-CXXFLAGS=-g  -I../SRombauts-SQLiteCpp-91a98f8/include/
+CXXFLAGS=-g  -I../SRombauts-SQLiteCpp-91a98f8/include/ -std=gnu++11
 
 extract: extract.cpp
 	g++ $(CXXFLAGS) -c extract.cpp

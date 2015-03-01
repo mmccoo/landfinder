@@ -3,7 +3,9 @@
 use warnings;
 use strict;
 
+# select PARCNO, ACCOUNTNO, Coordinates from Parcels where PARCNO like "WJ14200%" OR PARCNO like "WJ14210%";
 #select PARCNO, ACCOUNTNO, Coordinates from Parcels limit 5;
+# gpsbabel -i kml -f riverplots.kml -o gpx -F riverplots.gpx
 
 my $templ = "path.tmpl";
 

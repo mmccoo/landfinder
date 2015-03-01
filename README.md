@@ -32,3 +32,9 @@ Cowlitz/parcels.db is a sqlite3 db that contains a merge of the assessment data 
 
 genparcelpaths.pl generates a kml for google earth based on a simple sqlite select. Parcel number, account number, and coordinages. PN/AN in cowlitz is a unique identified for a piece of property.
 
+from https://www.mapbox.com/tilemill/docs/guides/terrain-data/
+
+Note: If there is not a 1:1 relation between your vertical and horizontal units, you will want to use the -s (scale) option to indicate the difference. Since Google Mercator X & Y units are meters, and NED elevation is also stored in meters this wasn’t necessary for our example. If your elevation data is stored in feet, you might do this instead (since there are approximately 3.28 feet in 1 meter):
+
+
+aspect: It is reported as degrees (or radians) from the established zero marker (usually North) and is also called the azimuth angle

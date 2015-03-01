@@ -13,3 +13,5 @@ extract_stats/sqlitetest
 SRombauts-SQLiteCpp-91a98f8
 Cowlitz/parcels.db
 extract_stats/extract
+*.kml
+*/*.kml
